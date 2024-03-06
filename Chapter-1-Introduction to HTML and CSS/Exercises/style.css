@@ -1,0 +1,81 @@
+/* I will import the Patrick Hand font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+* { /* this asterisk means all elements will have this design */
+    padding: 0; /* Padding allows me to create a space for the elements inside a border */
+    margin: 0; /* Margin allows me to create a space for the elements outside a border */
+    box-sizing: border-box; /* Will allow me to calculate the height and width of the website */
+    font-family: 'Patrick Hand', cursive; /* This is the font I will be using for this website */
+}
+
+nav { /* this will affect only the navigation bar */
+    height: 80px; 
+    background: #FAD6A5; /* This will be the color I will be using for the navigation bar */  
+}
+
+h2 { /* this will affect only the h2 */
+    color: #6f4e37; /* This will be the color I will be using for the h2 */
+    margin-bottom: 1rem; /* Margin allows me to create a space for the elements outside a border */
+}
+
+.logo { /* this will affect only the logo */
+    color: black; /* This will be the color I will be using for the logo */
+    font-size: 2rem;
+    padding: 2rem; /* Padding allows me to create a space for the elements inside a border */
+    text-align: center; 
+    font-weight: bold;
+    font-style:oblique;
+}
+
+.recipe-page { /* this will affect only the recipe page */
+    max-width: 200%;
+    background-color: whitesmoke; /* This will be the color I will be using for the background */
+    margin: 5rem; /* Margin allows me to create a space for the elements outside a border */
+    border-radius: 1rem;
+}
+
+.recipe-name { /* this will affect only the recipe name */
+    display:block;
+    padding: 1rem; /* Padding allows me to create a space for the elements inside a border */
+    margin: 1rem; /* Margin allows me to create a space for the elements outside a border */
+    text-align: center;
+}
+
+button { /* this will affect only the button */
+    display: block;
+    padding: 1rem 3rem; /* Padding allows me to create a space for the elements inside a border */
+    margin: 20px auto; /* Margin allows me to create a space for the elements outside a border */
+    background-color: #D2691E; /* This will be the color I will be using for the button background color */
+    color: black; /* This will be the color I will be using for the button text */
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body { /* this will affect only the body */
+    background: bisque /* This will be the color I will be using for the body background color  */
+}
+
+.recipe-image { /* this will affect only the recipe image */
+    max-width: 100%;
+    margin-bottom: 10px; /* Margin allows me to create a space for the elements outside a border */
+    margin-left: 8rem;
+    margin-right: 8rem;
+    border-radius: 10rem;
+}
+
+.prep-time { /* this will affect only the prep time */
+    margin: 3rem; /* Margin allows me to create a space for the elements outside a border */
+}
+
+.recipe-details { /* this will affect only the recipe details */
+    margin: 3rem; /* Margin allows me to create a space for the elements outside a border */
+}
+
+.ingredients { /* this will affect only the ingredients */
+    margin: 3rem; /* Margin allows me to create a space for the elements outside a border */
+}
+
+.directions { /* this will affect only the directions */
+    margin: 3rem; /* Margin allows me to create a space for the elements outside a border */
+}
+
