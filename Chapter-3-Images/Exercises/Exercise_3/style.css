@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(to bottom,#ffa07a ,#ff0000);
+    
+}
+.Picture1 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    padding: 70px;
+    margin-left: 350px;
+}
+
+.Picture1:hover {
+filter: sepia(10)
+}
+
+.Picture2 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    padding: 70px;
+    margin-left: 520px;
+}
+
+.Picture2:hover {
+    filter:invert(100)
+}
+
+.Picture3 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    padding: 70px;
+    margin-left: 510px;
+    
+}
+
+.Picture3:hover {
+    filter: saturate(100);
+}
+
