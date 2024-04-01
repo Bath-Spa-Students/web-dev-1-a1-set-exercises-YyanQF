@@ -1,17 +1,17 @@
 body {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url('img/That\ Was\ final\ bg.png');
-    background-position: center;
+    flex-direction: column; /* The direction in which lines of text are stacked */
+    align-items: center; /* the contents will be centered */
+    justify-content: center; /* the contents will be centered */
+    height: 100vh; /* This is the viewpoint height in which it will be the height of the screen */
+    background-image: url('img/That\ Was\ final\ bg.png'); /* This will be the background image */
+    background-position: center; /* The position of the background image in the website */
 }
 video {
-    width: 840px;
+    width: 840px; /* The width of the video*/
 }
 
 h4,
 p {
-    color: rgb(86, 233, 169);
+    color: rgb(86, 233, 169); /* The color of the text */
 }
