@@ -1,0 +1,85 @@
+nav {
+    background-color: #17072b; /* I will set the background color of the navigation bar */
+}
+.logo { /*I will set the style for the logo in the navigation bar */
+    font-family: Tahoma; /* I will set the font for the logo in the navigation bar */
+    font-size: 70px; /* Set the font size for the logo in the navigation bar */
+    color: white; /* I will set the color of the text */
+    text-decoration: underline; /* Set the text for the logo in the navigation bar */
+    text-align: center; /* Alignment of the logo in the navigation bar */
+    flex: 1; /* This will make the logo take up the remaining space in the navigation bar */
+    padding-top: 40px; /* Add space on top of the navigation bar */
+}
+
+.nav-items {
+    font-family: Arial; /* Set the font for the items in the navigation items */
+    font-size: 40px; /* Set the font size for the items in the navigation items */
+    color: white; /* I will set the color of the text */
+    display: flex; /* Will set the items to display horizontally */
+    flex-direction: row;   /* Will set the items to display horizontally */
+    justify-content: center;  /* Will set the items to display in the center */
+    margin-top: 20px;  /* Add space on top of the navigation bar */
+}
+
+
+.nav-items p {
+    padding-right: 25px; /* Add space on side */
+}
+
+section {
+    float: left;
+    width: 70%;
+    font-family: Arial; /* Set the font for the text in the section */
+    margin-left: 20px;
+}
+
+section h1 {
+    text-decoration: underline;
+}
+
+section p {
+    padding-right: 65px;
+    font-size: 18px;
+}
+
+section img {
+    width: 60pc;
+    height: 15pc;
+    margin-bottom: 20px;
+}
+
+
+aside {
+    float:right;
+    width: 30%;
+    margin-top: 3px;
+    background-color: #172d67; /* I will set the background color of the navigation bar */
+    color: white; /* I will set the color of the text */
+    font-family: Arial; /* Set the font for the text in the aside */
+    padding-left: 1%;
+    position: absolute; 
+    top: 290px; 
+    bottom: 90px; 
+    right: 0; 
+}
+
+aside h1 {
+    text-decoration: underline;
+}
+
+aside img {
+    width: 40%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    background-color: #8c15e9; /* I will set the background color of the navigation bar */
+    color: white; /* I will set the color of the text */
+}
